@@ -5,6 +5,18 @@ var red = new Audio("sounds/red.mp3");
 var yellow = new Audio("sounds/yellow.mp3");
 var wrong = new Audio("sounds/wrong.mp3");
 
+blue.volume = 0.3;
+green.volume = 0.3;
+red.volume = 0.3;
+yellow.volume = 0.3;
+wrong.volume = 0.3;
+
+// let music = new Audio({
+//     loop: true,
+//     volume: 1,
+//     src: ['/yourSounds/music.mp3']
+// })
+
 var gamePattern = []
 var userClickedPattern = []
 
